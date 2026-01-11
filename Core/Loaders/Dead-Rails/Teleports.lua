@@ -1,5 +1,5 @@
 local teleports = {}
-local tb = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/refs/heads/main/Core/Loaders/Dead-Rails/TurretBypass.lua"))()
+local tb = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/Null-Fire/refs/heads/main/Core/Loaders/Dead-Rails/TurretBypass.lua"))()
 local plr = game:GetService("Players").LocalPlayer
 local network = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/refs/heads/main/Core/Libraries/Network/Main.lua"))()
 
