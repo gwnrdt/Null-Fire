@@ -23,7 +23,7 @@ end
 
 -- Load Fire Library
 local FireLibSource = game:HttpGet(
-    "https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Libraries/Fire-Lib/Main.lua",
+    "https://raw.githubusercontent.com/gwnrdt/Null-Fire/refs/heads/main/Core/Libraries/Fire-Lib/Main.lua",
     true
 )
 local FireLib = loadstring(FireLibSource)()
@@ -36,7 +36,7 @@ FireLib.Notifications:Notification({
 
 -- Load Personal Player Data
 local playerDataSource = game:HttpGet(
-    "https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Data/PersonalPlayerData.json",
+    "https://raw.githubusercontent.com/gwnrdt/Null-Fire/refs/heads/main/Core/Data/PersonalPlayerData.json",
     true
 )
 local playerData = HttpService:JSONDecode(playerDataSource)
