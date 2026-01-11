@@ -13,7 +13,7 @@ local lib = getGlobalTable()._FIRELIB
 local plr = game:GetService("Players").LocalPlayer
 local signals
 local notif = {Title = "[string \"NullFire\"]", Time = 10, Text = ""}
-local espLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Libraries/ESP/Main.lua", true))()
+local espLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/Null-Fire/refs/heads/main/Core/Libraries/ESP/Main.lua", true))()
 
 pcall(function()
 	signals = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Libraries/Signals/Main.lua"))()
