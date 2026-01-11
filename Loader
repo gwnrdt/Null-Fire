@@ -58,7 +58,7 @@ FireLib.Notifications:Notification({
 })
 
 local supportedSource = game:HttpGet(
-    "https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Data/SupportedGames.json",
+    "https://raw.githubusercontent.com/gwnrdt/Null-Fire/refs/heads/main/Core/Data/SupportedGames.json",
     true
 )
 local supportedGames = HttpService:JSONDecode(supportedSource)
